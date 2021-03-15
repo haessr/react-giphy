@@ -23,8 +23,8 @@ class GifList extends Component {
 const GifList = ({ gifs, selectGif }) => {
   return (
     <div className="gif-list">
-      {gifs.map((gif) => (
-        <Gif id={gif.id} key={gif.id} selectGif={selectGif} />
+      {gifs.map(({ id }) => (
+        <Gif id={id} key={id} selectGif={selectGif} />
       ))}
     </div>
   );

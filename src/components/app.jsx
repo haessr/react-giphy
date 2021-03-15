@@ -12,7 +12,7 @@ class App extends Component {
 
     this.state = {
       gifs: [],
-      selectedGifId: "EiZQwKjFPDrYFnzrhA",
+      selectedGifId: null, //"EiZQwKjFPDrYFnzrhA",
     };
 
     // this.search("homer thinking");
